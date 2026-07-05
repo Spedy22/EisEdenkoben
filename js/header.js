@@ -1,3 +1,4 @@
+import sprite from "../src/images/sprite.svg";
 (() => {
   const refs = {
     // Для першої модалки
