@@ -32,6 +32,9 @@ body {
   background-image: url(./images/general/backg.jpg);
   background-position: center bottom;
 
+  @media screen and (max-width: 479px) {
+    background-position: -540px center;
+  }
   @media screen and (min-width: 1200px) {
     background-position: center center;
   }
