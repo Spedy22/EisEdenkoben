@@ -15,6 +15,7 @@
   --white: #ffffff;
   --grey-line: #e1e1e1;
   --green-line: #9cbe8f;
+  --green-border: #96af8c;
   --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
   --second-family: "Seymour One", sans-serif;
 }
@@ -347,12 +348,15 @@ label {
 }
 
 .hero-header__title > span {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
   @media screen and (max-width: 479px) {
     font-size: 33px;
   }
 
   @media screen and (min-width: 480px) {
     font-size: 33px;
+    width: 500px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -439,9 +443,11 @@ label {
 }
 
 .products-box__title {
+  word-wrap: break-word;
+overflow-wrap: break-word;
   font-family: var(--second-family);
   font-weight: 400;
-  font-size: 30px;
+  font-size: 28px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   text-align: center;
@@ -454,31 +460,33 @@ label {
   @media screen and (min-width: 768px) {
     margin-bottom: 60px;
   }
-
 }
 
 .products-box__image {
   display: flex;
   margin-bottom: 300px;
+  justify-content: center;
+}
+
+.products-box__image-pic {
+  display: block;
+  width: 100%;
   width: 1168px;
-  height: 1168px;
 
   @media screen and (max-width: 1199px) {
     width: 704px;
-    height: 704px;
   }
+
   @media screen and (max-width: 767px) {
-    width: 440px;
-    height: 440px;
+    max-width: 440px;
   }
+
 }
 
-.products-box__image-pic > img {
+.products-box__image-pic img {
+  display: block;
   width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: auto;
   border-radius: 6%;
 }
 .products__list {
@@ -671,6 +679,8 @@ label {
 }
 
 .about__title {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
   width: 100%;
   margin-top: 12px;
   margin-bottom: 54px;
@@ -697,6 +707,7 @@ label {
 }
 
 .about__subtitle {
+  padding: 20px;
   text-align: center;
   z-index: 10;
   font-weight: 400;
@@ -704,33 +715,13 @@ label {
   line-height: 176%;
   letter-spacing: 0.04em;
   color: var(--text-dark);
+  background-color: #ffdee2;
+  border-radius: 9px;
 
   @media screen and (min-width: 1200px) {
     font-size: 16px;
   }
 }
-
-.about__backdrop {
-  z-index: -1;
-  display: block;
-  position: absolute;
-  top: 185px;
-  left: 0;
-  width: 100%;
-  height: 384px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  opacity: 0.5;
-
-  @media screen and (max-width: 1199px) {
-    height: 480px;
-  }
-  @media screen and (max-width: 767px) {
-    top: 152px;
-    height: 780px;
-  }
-}
-
 .about-info {
   @media screen and (min-width: 768px) {
     display: flex;
@@ -1539,7 +1530,6 @@ label {
   display: flex;
   align-items: center;
 }
-
 
 .footer__link:hover,
 .footer__link:focus,
@@ -2419,6 +2409,9 @@ label {
   margin-right: 30px;
   margin-left: auto;
   border-radius: 16px;
+  width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
   @media screen and (min-width: 1200px) {
     margin-right: 100px;
     width: 700px;
@@ -2428,31 +2421,35 @@ label {
     margin-right: 60px;
     width: 700px;
     height: 500px;
+    margin-bottom: 0px;
   }
 }
 
 .map__box {
   display: flex;
   justify-content: center;
-}
+  @media screen and (max-width: 767px) {
+    display: block;
+  }
+  }                     
 
-.map__box > div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
+  .map__box > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
 
-.map__box > div .map__subtitle:last-of-type {
-  margin-bottom: 100px;
-}
+  .map__box > div .map__subtitle:last-of-type {
+    margin-bottom: 100px;
+  }
 
-.map__title {
-  margin-bottom: 25px;
+  .map__title {
+    margin-bottom: 25px;
 
-  font-family: var(--second-family);
-  font-weight: 400;
-  font-size: 20px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   text-align: center;

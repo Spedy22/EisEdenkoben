@@ -1,4 +1,3 @@
-import sprite from "../src/images/sprite.svg";
 (() => {
   const refs = {
     // Для першої модалки
@@ -28,7 +27,7 @@ import sprite from "../src/images/sprite.svg";
     modal5: document.querySelector("[data-modal-info-3]"),
 
     // Для шостої модалки (відео)
-    openModalBtn6: document.querySelector("[data-modal-video-open]"),
+    openModalBtn6: document.querySelector("[data-modal-video-open]"),           
     closeModalBtn6: document.querySelector("[data-modal-video-close]"),
     modal6: document.querySelector("[data-modal-video]"),
 

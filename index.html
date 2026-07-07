@@ -18,7 +18,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
     <div class="header__wrapper-backdrop">
@@ -27,7 +27,7 @@
           <div class="header">
             <a aria-label="page logo" class="header__logo" href="./index.html">
               <svg class="header__logo-svg">
-                <use href="./sprite.svg#logo"></use>
+                <use href="./src/images/sprite.svg#logo"></use>
               </svg>
             </a>
             <nav class="header__nav">
@@ -53,7 +53,7 @@
                 class="header-burger"
               >
                 <svg class="header-burger__svg">
-                  <use href="./images/sprite.svg#burger"></use>
+                  <use href="./src/images/sprite.svg#burger"></use>
                 </svg>
               </button>
             </div>
@@ -86,31 +86,31 @@
           <div class="products-box">
             <h2 class="products-box__title">100&#37; Naturprodukte</h2>
           </div>
-          <div class="products-box__image">
+          <div class="products-box__image">             
             <picture class="products-box__image-pic">
-              <source srcset="./images/general/menu.jpg 1x" type="image/webp" />
+              <source srcset="./src/images/general/menu.jpg 1x" type="image/webp" />
               <img
-                srcset="./images/general/menu.jpg 1x"
-                src="./images/general/menu.jpg"
+                srcset="./src/images/general/menu.jpg 1x"
+                src="./src/images/general/menu.jpg"
                 alt="menu"
                 width="200"
               />
-            </picture>
+            </picture>          
           </div>
           <ul class="products__list">
             <li class="products__item products__item-ice-cream">
               <div class="products__circle products__circle-ice-cream"></div>
               <picture class="products__picture">
                 <source
-                  srcset="./images/general/Frappuccino.jpg 1x"
+                  srcset="./src/images/general/Frappuccino.jpg 1x"
                   media="(min-width: 1200px)"
                 />
 
                 <img
                   srcset="
-                    ./images/general/Frappuccino.jpg 1x,
+                    ./src/images/general/Frappuccino.jpg 1x,
                   "
-                  src="./images/general/Frappuccino.jpg"
+                  src="./src/images/general/Frappuccino.jpg"
                   alt="Frappuccino"
                   width="200"
                 />
@@ -124,15 +124,15 @@
               <div class="products__circle products__circle-ice-coffee"></div>
               <picture class="products__picture">
                 <source
-                  srcset="./images/general/Blonder Engel.jpg 1x"
+                  srcset="./src/images/general/blonderengel.jpg 1x"
                   media="(min-width: 1200px)"
                 />
 
                 <img
                   srcset="
-                    ./images/general/Blonder Engel.jpg  1x,
+                    ./src/images/general/blonderengel.jpg  1x,
                   "
-                  src="./images/general/Blonder Engel.jpg"
+                  src="./src/images/general/blonderengel.jpg"
                   alt="Blonder Engel"
                   width="200"
                 />
@@ -146,15 +146,15 @@
               <div class="products__circle products__circle-milkshake"></div>
               <picture class="products__picture">
                 <source
-                  srcset="./images/general/Eiskaffee.jpg 1x"
+                  srcset="./src/images/general/Eiskaffee.jpg 1x"
                   media="(min-width: 1200px)"
                 />
 
                 <img
                   srcset="
-                    ./images/general/Eiskaffee.jpg  1x,
+                    ./src/images/general/Eiskaffee.jpg  1x,
                   "
-                  src="./images/general/Eiskaffee.jpg"
+                  src="./src/images/general/Eiskaffee.jpg"
                   alt="Ice coffee"
                   width="200"
                 />
@@ -171,39 +171,39 @@
               <picture class="products__picture">
                 <source
                   srcset="
-                    ./images/desktop/ice-cream-desktop.webp   1x,
-                    ./images/desktop/ice-cream-desktop2x.webp 2x
+                    ./src/images/desktop/ice-cream-desktop.webp   1x,
+                    ./src/images/desktop/ice-cream-desktop2x.webp 2x
                   "
                   media="(min-width: 1200px)"
-                  type="image/webp"
+                  type="image/webp"               
                 />
 
                 <source
                   srcset="
-                    ./images/desktop/ice-cream-desktop.jpg   1x,
-                    ./images/desktop/ice-cream-desktop2x.jpg 2x
+                    ./src/images/desktop/ice-cream-desktop.jpg   1x,
+                    ./src/images/desktop/ice-cream-desktop2x.jpg 2x
                   "
                   media="(min-width: 1200px)"
                 />
 
                 <source
                   srcset="
-                    ./images/general/ice-cream.webp   1x,
-                    ./images/general/ice-cream2x.webp 2x
+                    ./src/images/general/ice-cream.webp   1x,
+                    ./src/images/general/ice-cream2x.webp 2x
                   "
                   type="image/webp"
                 />
                 <img
                   srcset="
-                    ./images/general/ice-cream.jpg   1x,
-                    ./images/general/ice-cream2x.jpg 2x
+                    ./src/images/general/ice-cream.jpg   1x,
+                    ./src/images/general/ice-cream2x.jpg 2x
                   "
-                  src="./images/general/ice-cream.jpg"
+                  src="./src/images/general/ice-cream.jpg"
                   alt="Ice cream"
                   width="200"
                 />
               </picture>
-              <h3 class="products__title">ice cream </h3>
+              <h3 class="products__title">ice cream</h3>
               <p class="products__subtitle">
                 Softeis mit feinem Geschmack. Hergestellt aus Milch, Sahne, Zucker und natürlichem Stabilisator.
               </p>
@@ -213,8 +213,8 @@
               <picture class="products__picture">
                 <source
                   srcset="
-                    ./images/desktop/ice-coffee-desktop.webp   1x,
-                    ./images/desktop/ice-coffee-desktop2x.webp 2x
+                    ./src/images/desktop/ice-coffee-desktop.webp   1x,
+                    ./src/images/desktop/ice-coffee-desktop2x.webp 2x
                   "
                   media="(min-width: 1200px)"
                   type="image/webp"
@@ -222,25 +222,25 @@
 
                 <source
                   srcset="
-                    ./images/desktop/ice-coffee-desktop.jpg   1x,
-                    ./images/desktop/ice-coffee-desktop2x.jpg 2x
+                    ./src/images/desktop/ice-coffee-desktop.jpg   1x,
+                    ./src/images/desktop/ice-coffee-desktop2x.jpg 2x
                   "
                   media="(min-width: 1200px)"
                 />
 
                 <source
                   srcset="
-                    ./images/general/ice-coffee.webp   1x,
-                    ./images/general/ice-coffee2x.webp 2x
+                    ./src/images/general/ice-coffee.webp   1x,
+                    ./src/images/general/ice-coffee2x.webp 2x
                   "
                   type="image/webp"
                 />
                 <img
                   srcset="
-                    ./images/general/ice-coffee.jpg   1x,
-                    ./images/general/ice-coffee2x.jpg 2x
+                    ./src/images/general/ice-coffee.jpg   1x,
+                    ./src/images/general/ice-coffee2x.jpg 2x
                   "
-                  src="./images/general/ice-coffee.jpg"
+                  src="./src/images/general/ice-coffee.jpg"
                   alt="Ice coffee"
                   width="200"
                 />
@@ -256,8 +256,8 @@
               <picture class="products__picture">
                 <source
                   srcset="
-                    ./images/desktop/milkshake-desktop.webp   1x,
-                    ./images/desktop/milkshake-desktop2x.webp 2x
+                    ./src/images/desktop/milkshake-desktop.webp   1x,
+                    ./src/images/desktop/milkshake-desktop2x.webp 2x
                   "
                   media="(min-width: 1200px)"
                   type="image/webp"
@@ -265,25 +265,25 @@
 
                 <source
                   srcset="
-                    ./images/desktop/milkshake-desktop.jpg   1x,
-                    ./images/desktop/milkshake-desktop2x.jpg 2x
+                    ./src/images/desktop/milkshake-desktop.jpg   1x,
+                    ./src/images/desktop/milkshake-desktop2x.jpg 2x
                   "
                   media="(min-width: 1200px)"
                 />
 
                 <source
                   srcset="
-                    ./images/general/milkshake.webp   1x,
-                    ./images/general/milkshake2x.webp 2x
+                    ./src/images/general/milkshake.webp   1x,
+                    ./src/images/general/milkshake2x.webp 2x
                   "
                   type="image/webp"
                 />
                 <img
                   srcset="
-                    ./images/general/milkshake.jpg   1x,
-                    ./images/general/milkshake2x.jpg 2x
+                    ./src/images/general/milkshake.jpg   1x,
+                    ./src/images/general/milkshake2x.jpg 2x
                   "
-                  src="./images/general/milkshake.jpg"
+                  src="./src/images/general/milkshake.jpg"
                   alt="Milkshake"
                   width="200"
                 />
@@ -330,7 +330,7 @@
                   href="https://www.instagram.com/eiscafe.engert?igsh=MXJ0ajB6YThueWV2aA%3D%3D"
                 >
                   <svg class="footer__svg">
-                    <use href="./images/sprite.svg#icon-instagram"></use>
+                    <use href="./src/images/sprite.svg#icon-instagram"></use>
                   </svg>
                 </a>
               </li>
@@ -341,7 +341,6 @@
 
       <section id="how" class="contacts container">
         <h2 class="about__title">Über uns</h2>
-        <div class="about__backdrop"></div>
         <p class="about__subtitle">
           In einer kleinen Stadt in einer engen Straße, zwischen alten Häusern
           und ruhigen Innenhöfen, arbeitet seit über 20 Jahren ein kleines Café.
@@ -390,7 +389,7 @@
         <div class="header-modal__header">
           <a aria-label="page logo" class="header__logo" href="./index.html">
             <svg class="header__logo-svg">
-              <use href="./images/sprite.svg#logo"></use>
+              <use href="./src/images/sprite.svg#logo"></use>
             </svg>
           </a>
           <button
@@ -399,7 +398,7 @@
             class="header-modal__close"
           >
             <svg class="header-burger__svg">
-              <use href="./images/sprite.svg#vector-close"></use>
+              <use href="./src/images/sprite.svg#vector-close"></use>
             </svg>
           </button>
         </div>
@@ -430,7 +429,7 @@
           data-modal-close-2
         >
           <svg class="buy-now__svg">
-            <use href="./images/sprite.svg#vector-close"></use>
+            <use href="./src/images/sprite.svg#vector-close"></use>
           </svg>
         </button>
         <h2 class="buy-now__title">Buy now</h2>
@@ -451,17 +450,17 @@
                 <picture class="buy-now__picture">
                   <source
                     srcset="
-                      ./images/general/ice-cream.webp   1x,
-                      ./images/general/ice-cream2x.webp 2x
+                      ./src/images/general/ice-cream.webp   1x,
+                      ./src/images/general/ice-cream2x.webp 2x
                     "
                     type="image/webp"
                   />
                   <img
                     srcset="
-                      ./images/general/ice-cream.jpg   1x,
-                      ./images/general/ice-cream2x.jpg 2x
+                      ./src/images/general/ice-cream.jpg   1x,
+                      ./src/images/general/ice-cream2x.jpg 2x
                     "
-                    src="./images/general/ice-cream.jpg"
+                    src="./src/images/general/ice-cream.jpg"
                     alt="Ice cream"
                     width="132"
                   />
@@ -484,17 +483,17 @@
                 <picture class="buy-now__picture">
                   <source
                     srcset="
-                      ./images/general/ice-coffee.webp   1x,
-                      ./images/general/ice-coffee2x.webp 2x
+                      ./src/images/general/ice-coffee.webp   1x,
+                      ./src/images/general/ice-coffee2x.webp 2x
                     "
                     type="image/webp"
                   />
                   <img
                     srcset="
-                      ./images/general/ice-coffee.jpg   1x,
-                      ./images/general/ice-coffee2x.jpg 2x
+                      ./src/images/general/ice-coffee.jpg   1x,
+                      ./src/images/general/ice-coffee2x.jpg 2x
                     "
-                    src="./images/general/ice-coffee.jpg"
+                    src="./src/images/general/ice-coffee.jpg"
                     alt="Ice coffee"
                     width="132"
                   />
@@ -517,17 +516,17 @@
                 <picture class="buy-now__picture">
                   <source
                     srcset="
-                      ./images/general/milkshake.webp   1x,
-                      ./images/general/milkshake2x.webp 2x
+                      ./src/images/general/milkshake.webp   1x,
+                      ./src/images/general/milkshake2x.webp 2x
                     "
                     type="image/webp"
                   />
                   <img
                     srcset="
-                      ./images/general/milkshake.jpg   1x,
-                      ./images/general/milkshake2x.jpg 2x
+                      ./src/images/general/milkshake.jpg   1x,
+                      ./src/images/general/milkshake2x.jpg 2x
                     "
-                    src="./images/general/milkshake.jpg"
+                    src="./src/images/general/milkshake.jpg"
                     alt="Milkshake"
                     width="132"
                     height="132"
@@ -564,7 +563,6 @@
         </form>
       </div>
     </div>
-    <script type="module" src="../js/header.js"></script>
-    <script src="../js/buy-now.js"></script>
+    <script src="./src/header.js"></script>
   </body>
-</html>
+</html>       
