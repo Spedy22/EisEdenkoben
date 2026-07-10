@@ -18,6 +18,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
@@ -25,7 +29,7 @@
       <header class="header__container container">
         <div class="header__wrapper">
           <div class="header">
-            <a aria-label="page logo" class="header__logo" href="./index.html">
+            <a aria-label="page logo" href="./index.html">
               <svg class="header__logo-svg">
                 <use href="./src/images/sprite.svg#logo"></use>
               </svg>
@@ -61,14 +65,14 @@
         </div>
         <div class="hero-header">
           <div>
-            <div class="hero-header__title-box">
+            <div>
               <h1 class="hero-header__title" id="home">
                 Eiscreme mit
                 <span>Leidenschaft</span>
               </h1>
             </div>
             <div class="hero-header__indulge">
-              <div class="hero-header__subtitle-wrapper">
+              <div>
                 <p class="hero-header__subtitle">
                   Gönnen Sie sich eine Kugel mit Leidenschaft zubereitetes Eis
                   und verwöhnen Sie Ihren Gaumen mit einem unvergesslichen
@@ -83,20 +87,184 @@
     <main>
       <section id="products" class="products">
         <div class="container">
-          <div class="products-box">
-            <h2 class="products-box__title">100&#37; Naturprodukte</h2>
+          <h2 class="products-box__title">100&#37; Naturprodukte</h2>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <picture class="products-box__image-pic">
+                  <source
+                    srcset="./src/images/general/menu.jpg 1x"
+                    type="image/webp"
+                  />
+                  <img
+                    srcset="./src/images/general/menu.jpg 1x"
+                    src="./src/images/general/menu.jpg"
+                    alt="menu"
+                    width="200"
+                  />
+                </picture>
+              </div>
+              <div class="swiper-slide">
+                <picture class="products-box__image-pic">
+                  <source
+                    srcset="./src/images/general/picsw1.jpg 1x"
+                    type="image/webp"
+                  />
+                  <img
+                    srcset="./src/images/general/picsw1.jpg 1x"
+                    src="./src/images/general/picsw1.jpg"
+                    alt="menu"
+                    width="200"
+                  />
+                </picture>
+              </div>
+              <div class="swiper-slide">
+                <picture class="products-box__image-pic">
+                  <source
+                    srcset="./src/images/general/picsw2.jpg 1x"
+                    type="image/webp"
+                  />
+                  <img
+                    srcset="./src/images/general/picsw2.jpg 1x"
+                    src="./src/images/general/picsw2.jpg"
+                    alt="menu"
+                    width="200"
+                  />
+                </picture>
+              </div>
+              <div class="swiper-slide">
+                <picture class="products-box__image-pic">
+                  <source
+                    srcset="./src/images/general/picsw3.jpg 1x"
+                    type="image/webp"
+                  />
+                  <img
+                    srcset="./src/images/general/picsw3.jpg 1x"
+                    src="./src/images/general/picsw3.jpg"
+                    alt="menu"
+                    width="200"
+                  />
+                </picture>
+              </div>
+              <div class="swiper-slide">
+                <picture class="products-box__image-pic">
+                  <source
+                    srcset="./src/images/general/pics4.jpg 1x"
+                    type="image/webp"
+                  />
+                  <img
+                    srcset="./src/images/general/pics4.jpg 1x"
+                    src="./src/images/general/pics4.jpg"
+                    alt="menu"
+                    width="200"
+                  />
+                </picture>
+              </div>
+              <div class="swiper-slide">
+                <picture class="products-box__image-pic">
+                  <source
+                    srcset="./src/images/general/picsw5.jpg 1x"
+                    type="image/webp"
+                  />
+                  <img
+                    srcset="./src/images/general/picsw5.jpg 1x"
+                    src="./src/images/general/picsw5.jpg"
+                    alt="menu"
+                    width="200"
+                  />
+                </picture>
+              </div>
+              <div class="swiper-slide">
+                <picture class="products-box__image-pic">
+                  <source
+                    srcset="./src/images/general/picsw6.jpg 1x"
+                    type="image/webp"
+                  />
+                  <img
+                    srcset="./src/images/general/picsw6.jpg 1x"
+                    src="./src/images/general/picsw6.jpg"
+                    alt="menu"
+                    width="200"
+                  />
+                </picture>
+              </div>
+              <div class="swiper-slide">
+                <picture class="products-box__image-pic">
+                  <source
+                    srcset="./src/images/general/picsw7.jpg 1x"
+                    type="image/webp"
+                  />
+                  <img
+                    srcset="./src/images/general/picsw7.jpg 1x"
+                    src="./src/images/general/picsw7.jpg"
+                    alt="menu"
+                    width="200"
+                  />
+                </picture>
+              </div>
+              <div class="swiper-slide">
+                <picture class="products-box__image-pic">
+                  <source
+                    srcset="./src/images/general/picsw8.jpg 1x"
+                    type="image/webp"
+                  />
+                  <img
+                    srcset="./src/images/general/picsw8.jpg 1x"
+                    src="./src/images/general/picsw8.jpg"
+                    alt="menu"
+                    width="200"
+                  />
+                </picture>
+              </div>
+              <div class="swiper-slide">
+                <picture class="products-box__image-pic">
+                  <source
+                    srcset="./src/images/general/picsw9.jpg 1x"
+                    type="image/webp"
+                  />
+                  <img
+                    srcset="./src/images/general/picsw9.jpg 1x"
+                    src="./src/images/general/picsw9.jpg"
+                    alt="menu"
+                    width="200"
+                  />
+                </picture>
+              </div>
+              <div class="swiper-slide">
+                <picture class="products-box__image-pic">
+                  <source
+                    srcset="./src/images/general/picsw10.jpg 1x"
+                    type="image/webp"
+                  />
+                  <img
+                    srcset="./src/images/general/picsw10.jpg 1x"
+                    src="./src/images/general/picsw10.jpg"
+                    alt="menu"
+                    width="200"
+                  />
+                </picture>
+              </div>
+              <div class="swiper-slide">
+                <picture class="products-box__image-pic">
+                  <source
+                    srcset="./src/images/general/picsw11.jpg 1x"
+                    type="image/webp"
+                  />
+                  <img
+                    srcset="./src/images/general/picsw11.jpg 1x"
+                    src="./src/images/general/picsw11.jpg"
+                    alt="menu"
+                    width="200"
+                  />
+                </picture>
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
           </div>
-          <div class="products-box__image">             
-            <picture class="products-box__image-pic">
-              <source srcset="./src/images/general/menu.jpg 1x" type="image/webp" />
-              <img
-                srcset="./src/images/general/menu.jpg 1x"
-                src="./src/images/general/menu.jpg"
-                alt="menu"
-                width="200"
-              />
-            </picture>          
-          </div>
+
           <ul class="products__list">
             <li class="products__item products__item-ice-cream">
               <div class="products__circle products__circle-ice-cream"></div>
@@ -107,9 +275,7 @@
                 />
 
                 <img
-                  srcset="
-                    ./src/images/general/Frappuccino.jpg 1x,
-                  "
+                  srcset="./src/images/general/Frappuccino.jpg 1x"
                   src="./src/images/general/Frappuccino.jpg"
                   alt="Frappuccino"
                   width="200"
@@ -117,7 +283,9 @@
               </picture>
               <h3 class="products__title">Frappuccino</h3>
               <p class="products__subtitle">
-                Wohlduftendes, belebendes Getränk aus 100&#37; natürlichen Zutaten, ohne Zusatz von Konservierungsstoffen und Geschmacksverstärkern.
+                Wohlduftendes, belebendes Getränk aus 100&#37; natürlichen
+                Zutaten, ohne Zusatz von Konservierungsstoffen und
+                Geschmacksverstärkern.
               </p>
             </li>
             <li class="products__item products__item-ice-coffee">
@@ -129,9 +297,7 @@
                 />
 
                 <img
-                  srcset="
-                    ./src/images/general/blonderengel.jpg  1x,
-                  "
+                  srcset="./src/images/general/blonderengel.jpg 1x"
                   src="./src/images/general/blonderengel.jpg"
                   alt="Blonder Engel"
                   width="200"
@@ -139,7 +305,9 @@
               </picture>
               <h3 class="products__title">Blonder Engel</h3>
               <p class="products__subtitle">
-                Wohlduftendes, belebendes Getränk aus 100&#37; natürlichen Zutaten, ohne Zusatz von Konservierungsstoffen und Geschmacksverstärkern.
+                Wohlduftendes, belebendes Getränk aus 100&#37; natürlichen
+                Zutaten, ohne Zusatz von Konservierungsstoffen und
+                Geschmacksverstärkern.
               </p>
             </li>
             <li class="products__item products__item-milkshake">
@@ -151,9 +319,7 @@
                 />
 
                 <img
-                  srcset="
-                    ./src/images/general/Eiskaffee.jpg  1x,
-                  "
+                  srcset="./src/images/general/Eiskaffee.jpg 1x"
                   src="./src/images/general/Eiskaffee.jpg"
                   alt="Ice coffee"
                   width="200"
@@ -161,7 +327,9 @@
               </picture>
               <h3 class="products__title">eis kaffee</h3>
               <p class="products__subtitle">
-                Wohlduftendes, belebendes Getränk aus 100&#37; natürlichen Zutaten, ohne Zusatz von Konservierungsstoffen und Geschmacksverstärkern.
+                Wohlduftendes, belebendes Getränk aus 100&#37; natürlichen
+                Zutaten, ohne Zusatz von Konservierungsstoffen und
+                Geschmacksverstärkern.
               </p>
             </li>
           </ul>
@@ -175,7 +343,7 @@
                     ./src/images/desktop/ice-cream-desktop2x.webp 2x
                   "
                   media="(min-width: 1200px)"
-                  type="image/webp"               
+                  type="image/webp"
                 />
 
                 <source
@@ -205,50 +373,7 @@
               </picture>
               <h3 class="products__title">ice cream</h3>
               <p class="products__subtitle">
-                Softeis mit feinem Geschmack. Hergestellt aus Milch, Sahne, Zucker und natürlichem Stabilisator.
-              </p>
-            </li>
-            <li class="products__item products__item-ice-coffee">
-              <div class="products__circle products__circle-ice-coffee"></div>
-              <picture class="products__picture">
-                <source
-                  srcset="
-                    ./src/images/desktop/ice-coffee-desktop.webp   1x,
-                    ./src/images/desktop/ice-coffee-desktop2x.webp 2x
-                  "
-                  media="(min-width: 1200px)"
-                  type="image/webp"
-                />
-
-                <source
-                  srcset="
-                    ./src/images/desktop/ice-coffee-desktop.jpg   1x,
-                    ./src/images/desktop/ice-coffee-desktop2x.jpg 2x
-                  "
-                  media="(min-width: 1200px)"
-                />
-
-                <source
-                  srcset="
-                    ./src/images/general/ice-coffee.webp   1x,
-                    ./src/images/general/ice-coffee2x.webp 2x
-                  "
-                  type="image/webp"
-                />
-                <img
-                  srcset="
-                    ./src/images/general/ice-coffee.jpg   1x,
-                    ./src/images/general/ice-coffee2x.jpg 2x
-                  "
-                  src="./src/images/general/ice-coffee.jpg"
-                  alt="Ice coffee"
-                  width="200"
-                />
-              </picture>
-              <h3 class="products__title">ice coffee</h3>
-              <p class="products__subtitle">
-                Wohlduftendes, belebendes Getränk aus 100&#37; natürlichen Zutaten, ohne Zusatz von Konservierungsstoffen und Geschmacksverstärkern.
-              
+                36 verschiedene Eissorten, frisch und mit Liebe zubereitet.
               </p>
             </li>
             <li class="products__item products__item-milkshake">
@@ -290,7 +415,7 @@
               </picture>
               <h3 class="products__title">milkshakes</h3>
               <p class="products__subtitle">
-                Süße Getränke auf der Basis von Milch und Eiscreme, ergänzt durch Sirup, Früchte, Beeren und andere Süßigkeiten nach Wahl.
+                Süße Getränke auf der Basis von Milch und Eiscreme.
               </p>
             </li>
           </ul>
@@ -316,13 +441,33 @@
               <br />
               +49 63236581</a
             >
+            <h2 class="map__title">Unsere Social-Media</h2>
             <ul class="footer__list">
               <li class="footer__item">
                 <a
-                  class="map__tel"
-                  href="https://www.instagram.com/eiscafe.engert?igsh=MXJ0ajB6YThueWV2aA%3D%3D"
-                  >Unser Instagram</a
+                  aria-label="link for facebook"
+                  target="_blank"
+                  class="footer__link"
+                  href="https://www.facebook.com/share/14cTqfzXcgh/?mibextid=wwXIfr"
                 >
+                  <svg class="footer__svg">
+                    <use href="./src/images/sprite.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__item">
+                <a
+                  aria-label="link for tiktok"
+                  target="_blank"
+                  class="footer__link"
+                  href="https://www.tiktok.com/@eiscafe.engert?_r=1"
+                >
+                  <svg class="footer__svg">
+                    <use href="./src/images/sprite.svg#icon-tiktok"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__item">
                 <a
                   aria-label="link for instagram"
                   target="_blank"
@@ -339,43 +484,114 @@
         </div>
       </section>
 
-      <section id="how" class="contacts container">
+      <section id="how" class="about container">
         <h2 class="about__title">Über uns</h2>
-        <p class="about__subtitle">
-          In einer kleinen Stadt in einer engen Straße, zwischen alten Häusern
-          und ruhigen Innenhöfen, arbeitet seit über 20 Jahren ein kleines Café.
-          Es heißt einfach Cafe Engert. Von Anfang an war es ein gemütlicher
-          Ort, der nach und nach ein Teil des Stadtlebens wurde. Draußen gibt es
-          ein schlichtes Schild und ein paar Tische am Fenster, und drinnen
-          erfüllt der Duft von frischem Kaffee und hausgemachtem Gebäck am
-          Morgen den ganzen Raum. Mit der Zeit wurde das Café bei den
-          Einheimischen und Gästen der Stadt bekannt. Manche kamen zufällig
-          vorbei, andere auf Empfehlung von Freunden, aber fast jeder blieb
-          länger, als er geplant hatte. Hier war es immer ruhig und sehr
-          gemütlich, als würde die Zeit langsamer vergehen. Eine Besonderheit
-          des Cafe Engert ist die eigene Herstellung von Desserts: Hier werden
-          Kuchen, Torten und Eis nach hausgemachten Rezepten zubereitet. Alles
-          wird vor Ort gemacht, mit einem Fokus auf Qualität und einem
-          einfachen, verständlichen Geschmack, den die Stammgäste schätzen. Die
-          Besitzer des Cafés lieben einfache Dinge: guten Kaffee, frisches
-          Gebäck und entspannte Gespräche ohne Eile. Sie kennen viele Gäste beim
-          Namen, erinnern sich an ihre Lieblingsgetränke und begrüßen sie immer
-          mit einem freundlichen Lächeln. Hier treffen sich Freunde nach der
-          Arbeit, Studenten bereiten sich auf Prüfungen vor, und Touristen
-          sitzen einfach am Fenster und beobachten die Straße. Manchmal hört man
-          leises Lachen im Café, manchmal herrscht ruhige Stille, die nicht
-          drückt, sondern Gemütlichkeit schafft. Und nach und nach wurde Cafe
-          Engert nicht nur ein Ort, an dem man Kaffee trinkt. Es wurde ein Ort,
-          an den man immer wieder zurückkehrt.
-        </p>
+        <div class="about__wrapper">
+          <div class="about__wrapper-helper">
+            <picture class="about__pic erst">
+              <source
+                srcset="./src/images/general/pic1.jpg 1x"
+                type="image/webp"
+              />
+              <img
+                srcset="./src/images/general/pic1.jpg 1x"
+                src="./src/images/general/pic1.jpg"
+                alt="pic1"
+                width="200"
+              />
+            </picture>
+            <p class="about__subtitle erst-off">
+              In einer kleinen Stadt in einer engen Straße, zwischen alten
+              Häusern und ruhigen Innenhöfen, arbeitet seit über 20 Jahren ein
+              kleines Café. Es heißt einfach Cafe Engert. Von Anfang an war es
+              ein gemütlicher Ort, der nach und nach ein Teil des Stadtlebens
+              wurde.
+            </p>
+            <p class="about__subtitle erst-on">
+              In einer kleinen Stadt in einer engen Straße, zwischen alten
+              Häusern und ruhigen Innenhöfen, arbeitet seit über 20 Jahren ein
+              kleines Café. Es heißt einfach Cafe Engert. Von Anfang an war es
+              ein gemütlicher Ort, der nach und nach ein Teil des Stadtlebens
+              wurde. Draußen gibt es ein schlichtes Schild und ein paar Tische
+              am Fenster, und drinnen erfüllt der Duft von frischem Kaffee und
+              hausgemachtem Gebäck am Morgen den ganzen Raum. Mit der Zeit wurde
+              das Café bei den Einheimischen und Gästen der Stadt bekannt.
+              Manche kamen zufällig vorbei, andere auf Empfehlung von Freunden,
+              aber fast jeder blieb länger, als er geplant hatte. Hier war es
+              immer ruhig und sehr gemütlich, als würde die Zeit langsamer
+              vergehen. Eine Besonderheit des Cafe Engert ist die eigene
+              Herstellung von Desserts: Hier werden Kuchen, Torten und Eis nach
+              hausgemachten Rezepten zubereitet.
+            </p>
+          </div>
+          <div class="about__box-healper">
+            <p class="about__subtitle funf-off">
+              Draußen gibt es ein schlichtes Schild und ein paar Tische am
+              Fenster, und drinnen erfüllt der Duft von frischem Kaffee und
+              hausgemachtem Gebäck am Morgen den ganzen Raum. Mit der Zeit wurde
+              das Café bei den Einheimischen und Gästen der Stadt bekannt.
+              Manche kamen zufällig vorbei, andere auf Empfehlung von Freunden,
+              aber fast jeder blieb länger, als er geplant hatte. Hier war es
+              immer ruhig und sehr gemütlich, als würde die Zeit langsamer
+              vergehen. Eine Besonderheit des Cafe Engert ist die eigene
+              Herstellung von Desserts: Hier werden Kuchen, Torten und Eis nach
+              hausgemachten Rezepten zubereitet. Alles wird vor Ort gemacht, mit
+              einem Fokus auf Qualität und einem einfachen, verständlichen
+              Geschmack, den die Stammgäste schätzen. Die Besitzer des Cafés
+              lieben einfache Dinge: guten Kaffee, frisches Gebäck und
+              entspannte Gespräche ohne Eile.
+            </p>
+            <p class="about__subtitle vier-off">
+              Alles wird vor Ort gemacht, mit einem Fokus auf Qualität und einem
+              einfachen, verständlichen Geschmack, den die Stammgäste schätzen.
+              Die Besitzer des Cafés lieben einfache Dinge: guten Kaffee,
+              frisches Gebäck und entspannte Gespräche ohne Eile.
+            </p>
+
+            <div class="about__box-healper-erst">
+              <picture class="about__pic zweit">
+                <source
+                  srcset="./src/images/general/pic2.jpg 1x"
+                  type="image/webp"
+                />
+                <img
+                  srcset="./src/images/general/pic2.jpg 1x"
+                  src="./src/images/general/pic2.jpg"
+                  alt="pic2"
+                  width="200"
+                />
+              </picture>
+              <p class="about__subtitle zwei-off">
+                Sie kennen viele Gäste beim Namen, erinnern sich an ihre
+                Lieblingsgetränke und begrüßen sie immer mit einem freundlichen
+                Lächeln. Hier treffen sich Freunde nach der Arbeit, Studenten
+                bereiten sich auf Prüfungen vor, und Touristen sitzen einfach am
+                Fenster und beobachten die Straße. Manchmal hört man leises
+                Lachen im Café, manchmal herrscht ruhige Stille, die nicht
+                drückt, sondern Gemütlichkeit schafft. Und nach und nach wurde
+                Cafe Engert nicht nur ein Ort, an dem man Kaffee trinkt. Es
+                wurde ein Ort, an den man immer wieder zurückkehrt.
+              </p>
+            </div>
+          </div>
+          <p class="about__subtitle drei-off">
+            Sie kennen viele Gäste beim Namen, erinnern sich an ihre
+            Lieblingsgetränke und begrüßen sie immer mit einem freundlichen
+            Lächeln. Hier treffen sich Freunde nach der Arbeit, Studenten
+            bereiten sich auf Prüfungen vor, und Touristen sitzen einfach am
+            Fenster und beobachten die Straße. Manchmal hört man leises Lachen
+            im Café, manchmal herrscht ruhige Stille, die nicht drückt, sondern
+            Gemütlichkeit schafft. Und nach und nach wurde Cafe Engert nicht nur
+            ein Ort, an dem man Kaffee trinkt. Es wurde ein Ort, an den man
+            immer wieder zurückkehrt.
+          </p>
+        </div>
       </section>
     </main>
     <footer class="footer container">
       <div class="footer__helper">
-        <div>
-          <p class="footer__subtitle">Hausgemachtes Eis</p>
-          <h2 class="footer__title">mit Leidenschaft zubereitet</h2>
-        </div>
+        <p class="footer__subtitle">Hausgemachtes Eis</p>
+        <h2 class="footer__title">mit Leidenschaft zubereitet</h2>
       </div>
       <p class="footer__copyright">
         &#169; 2026 - IceCream. All Rights Reserved.
@@ -420,149 +636,7 @@
         </nav>
       </div>
     </div>
-    <div class="buy-now__header-backdrop is-hidden" data-modal-2>
-      <div class="buy-now__header-modal">
-        <button
-          aria-label="close"
-          class="buy-now__button"
-          type="button"
-          data-modal-close-2
-        >
-          <svg class="buy-now__svg">
-            <use href="./src/images/sprite.svg#vector-close"></use>
-          </svg>
-        </button>
-        <h2 class="buy-now__title">Buy now</h2>
-        <form onsubmit="return validateSelection();">
-          <ul class="buy-now__list">
-            <li class="buy-now__item">
-              <input
-                id="product-ice-cream"
-                name="products"
-                type="checkbox"
-                value="Ice cream"
-              />
-              <label
-                class="buy-now__label buy-now__label-ice-cream"
-                for="product-ice-cream"
-              >
-                <span class="buy-now__circle buy-now__circle-ice-cream"></span>
-                <picture class="buy-now__picture">
-                  <source
-                    srcset="
-                      ./src/images/general/ice-cream.webp   1x,
-                      ./src/images/general/ice-cream2x.webp 2x
-                    "
-                    type="image/webp"
-                  />
-                  <img
-                    srcset="
-                      ./src/images/general/ice-cream.jpg   1x,
-                      ./src/images/general/ice-cream2x.jpg 2x
-                    "
-                    src="./src/images/general/ice-cream.jpg"
-                    alt="Ice cream"
-                    width="132"
-                  />
-                </picture>
-                <span class="buy-now__subtitle">ice cream</span>
-              </label>
-            </li>
-            <li class="buy-now__item">
-              <input
-                id="product-coffee"
-                name="products"
-                type="checkbox"
-                value="Ice coffee"
-              />
-              <label
-                class="buy-now__label buy-now__label-ice-coffee"
-                for="product-coffee"
-              >
-                <span class="buy-now__circle buy-now__circle-ice-coffee"></span>
-                <picture class="buy-now__picture">
-                  <source
-                    srcset="
-                      ./src/images/general/ice-coffee.webp   1x,
-                      ./src/images/general/ice-coffee2x.webp 2x
-                    "
-                    type="image/webp"
-                  />
-                  <img
-                    srcset="
-                      ./src/images/general/ice-coffee.jpg   1x,
-                      ./src/images/general/ice-coffee2x.jpg 2x
-                    "
-                    src="./src/images/general/ice-coffee.jpg"
-                    alt="Ice coffee"
-                    width="132"
-                  />
-                </picture>
-                <span class="buy-now__subtitle">ice coffee</span>
-              </label>
-            </li>
-            <li class="buy-now__item">
-              <input
-                id="product-milkshake"
-                name="products"
-                type="checkbox"
-                value="Milkshake"
-              />
-              <label
-                class="buy-now__label buy-now__label-milkshake"
-                for="product-milkshake"
-              >
-                <span class="buy-now__circle buy-now__circle-milkshake"></span>
-                <picture class="buy-now__picture">
-                  <source
-                    srcset="
-                      ./src/images/general/milkshake.webp   1x,
-                      ./src/images/general/milkshake2x.webp 2x
-                    "
-                    type="image/webp"
-                  />
-                  <img
-                    srcset="
-                      ./src/images/general/milkshake.jpg   1x,
-                      ./src/images/general/milkshake2x.jpg 2x
-                    "
-                    src="./src/images/general/milkshake.jpg"
-                    alt="Milkshake"
-                    width="132"
-                    height="132"
-                  />
-                </picture>
-                <span class="buy-now__subtitle">milkshake</span>
-              </label>
-            </li>
-          </ul>
-          <div class="buy-now__box-form">
-            <input
-              class="buy-now__input"
-              type="text"
-              name="username"
-              placeholder="Name"
-              required
-            />
-            <input
-              class="buy-now__input"
-              type="tel"
-              name="phone"
-              placeholder="Phone"
-              required
-              pattern="^\+380\d{9}$"
-              title="Формат: +380XXXXXXXXX"
-            />
-            <textarea
-              class="buy-now__texteria"
-              name="Comment"
-              placeholder="Comment"
-            ></textarea>
-            <button class="buy-now__submit" type="submit">Submit</button>
-          </div>
-        </form>
-      </div>
-    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="./src/header.js"></script>
   </body>
-</html>       
+</html>

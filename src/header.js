@@ -27,7 +27,7 @@
     modal5: document.querySelector("[data-modal-info-3]"),
 
     // Для шостої модалки (відео)
-    openModalBtn6: document.querySelector("[data-modal-video-open]"),           
+    openModalBtn6: document.querySelector("[data-modal-video-open]"),
     closeModalBtn6: document.querySelector("[data-modal-video-close]"),
     modal6: document.querySelector("[data-modal-video]"),
 
@@ -106,7 +106,7 @@
 (() => {
   const refs = {
     modal: document.querySelector("[data-modal]"), // Ваша модалка
-    modalLinks: document.querySelectorAll('.modal-header__link'), // Посилання в модалці
+    modalLinks: document.querySelectorAll(".modal-header__link"), // Посилання в модалці
   };
 
   // Функція закриття модалки
@@ -119,8 +119,22 @@
 
   // Додаємо обробник подій до кожного посилання
   if (refs.modal && refs.modalLinks && refs.modalLinks.length) {
-    refs.modalLinks.forEach(link => {
+    refs.modalLinks.forEach((link) => {
       link.addEventListener("click", () => closeModal());
     });
   }
 })();
+
+const swiper = new Swiper(".mySwiper", {
+  loop: true,
+  slidesPerView: 1,
+  spaceBetween: 20,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
