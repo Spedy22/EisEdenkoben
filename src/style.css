@@ -369,6 +369,7 @@ label {
 
   @media screen and (min-width: 1200px) {
     font-size: 38px;
+    width: 500px;
   }
 }
 
