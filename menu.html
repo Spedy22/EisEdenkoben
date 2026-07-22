@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EIS CREME</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Seymour+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="header__wrapper-backdrop">
+      <header class="header__container container">
+        <div class="header__wrapper">
+          <div class="header">
+            <a aria-label="page logo" href="./index.html">
+              <svg class="header__logo-svg">
+                <use href="./src/images/sprite.svg#logo"></use>
+              </svg>
+            </a>
+            <nav class="header__nav">
+              <ul class="header__list">
+                <li class="header__item">
+                  <a class="header__link" href="./index.html #home"
+                    >Startseite</a
+                  >
+                </li>
+                <li class="header__item">
+                  <a class="header__link" href="./menu.html">Speisekarte</a>
+                </li>
+                <li class="header__item">
+                  <a class="header__link" href="./index.html #contact"
+                    >Standort</a
+                  >
+                </li>
+                <li class="header__item">
+                  <a class="header__link" href="./index.html #how">Über uns</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header__box">
+              <button
+                aria-label="Open navigation"
+                data-modal-open
+                class="header-burger"
+              >
+                <svg class="header-burger__svg">
+                  <use href="./src/images/sprite.svg#burger"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="hero-header">
+          <div>
+            <div>
+              <h1 class="hero-header__title" id="home">Speisekarte</h1>
+            </div>
+            <div class="hero-header__indulge">
+              <div>
+                <p class="hero-header__subtitle">
+                  Gönnen Sie sich eine Kugel mit Leidenschaft zubereitetes Eis
+                  und verwöhnen Sie Ihren Gaumen mit einem unvergesslichen
+                  Erlebnis!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+    <main>
+      <section id="products" class="products">
+        <div class="container">
+          <h2 class="products-box__title">
+            36 Eissorten aus eigener Herstellung
+          </h2>
+          <div class="menub">
+            <ul class="menub__list">
+              <li class="menub__item">
+                <picture class="menu__pic menub">
+                  <source srcset="./src/images/general/eis.jpg 1x" />
+
+                  <img
+                    srcset="./src/images/general/eis.jpg 1x"
+                    src="./src/images/general/eis.jpg"
+                    alt="Eis"
+                    width="100%"
+                  />
+                </picture>
+                <h2 class="menub__title">Becher</h2>
+              </li>
+              <li class="menub__item">
+                <picture class="menu__pic menub">
+                  <source srcset="./src/images/general/paninni.jpg 1x" />
+
+                  <img
+                    srcset="./src/images/general/paninni.jpg 1x"
+                    src="./src/images/general/paninni.jpg"
+                    alt="Blonder Engel"
+                    width="100%"
+                  />
+                </picture>
+                <h2 class="menub__title">Lorem ipsum dolor.</h2>
+              </li>
+              <li class="menub__item">
+                <picture class="menu__pic menub">
+                  <source srcset="./src/images/general/paninni.jpg 1x" />
+
+                  <img
+                    srcset="./src/images/general/paninni.jpg 1x"
+                    src="./src/images/general/paninni.jpg"
+                    alt="Blonder Engel"
+                    width="100%"
+                  />
+                </picture>
+                <h2 class="menub__title">Lorem ipsum dolor.</h2>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="first__menu first__menu--first">
+          <div class="menu container">
+            <picture class="menu__pic">
+              <source
+                srcset="./src/images/general/picsw1.jpg 1x"
+                media="(min-width: 1200px)"
+              />
+
+              <img
+                srcset="./src/images/general/picsw1.jpg 1x"
+                src="./src/images/general/picsw1.jpg"
+                alt="Blonder Engel"
+                width="400"
+              />
+            </picture>
+            <div class="menu__wrapper">
+              <h2 class="menu__title products__title">Kinderbecher</h2>
+              <p class="products__subtitle">
+                36 verschiedene Eissorten, frisch und mit Liebe zubereitet.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="first__menu">
+          <div class="menu container">
+            <picture class="menu__pic">
+              <source
+                srcset="./src/images/general/drin1.jpg 1x"
+                media="(min-width: 1200px)"
+              />
+
+              <img
+                srcset="./src/images/general/drin1.jpg 1x"
+                src="./src/images/general/drin1.jpg"
+                alt="Blonder Engel"
+                width="400"
+              />
+            </picture>
+            <div class="menu__wrapper">
+              <h2 class="menu__title products__title">Hausgemachte Kuchen</h2>
+              <p class="products__subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo
+                laudantium autem deleniti, soluta eveniet magni exercitationem
+                accusamus mollitia nam doloremque eos a neque vitae maiores
+                rerum earum obcaecati nostrum deserunt!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="first__menu">
+          <div class="menu container">
+            <picture class="menu__pic">
+              <source
+                srcset="./src/images/general/paninni.jpg 1x"
+                media="(min-width: 1200px)"
+              />
+
+              <img
+                srcset="./src/images/general/paninni.jpg 1x"
+                src="./src/images/general/paninni.jpg"
+                alt="Blonder Engel"
+                width="400"
+              />
+            </picture>
+            <div class="menu__wrapper">
+              <h2 class="menu__title products__title">
+                Weine, Aperitive, Softdrinks, Bier
+              </h2>
+              <p class="products__subtitle">
+                Weine, Aperitive, Softdrinks, Bier, Spirituosen Nicht zu jeder
+                Tageszeit kann man mit Eis oder Süßspeisen locken. Manchmal muss
+                es eben ein kühles Getränk sein, etwa ein edler Wein oder ein
+                spritziger Aperitiv. Bei uns in der Karte finden Sie in jedem
+                Fall das passende Getränk, um Ihren Abend gebührend einzuläuten
+                oder ihn gemütlich ausklingen zu lassen!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="first__menu">
+          <div class="menu container">
+            <picture class="menu__pic">
+              <source
+                srcset="./src/images/general/gertanke.jpg 1x"
+                media="(min-width: 1200px)"
+              />
+
+              <img
+                srcset="./src/images/general/gertanke.jpg 1x"
+                src="./src/images/general/gertanke.jpg"
+                alt="Getränke"
+                width="400"
+              />
+            </picture>
+            <div class="menu__wrapper">
+              <h2 class="menu__title products__title">
+                hausgemachte limonaden
+              </h2>
+              <p class="products__subtitle">
+                Hausgemachte Limonaden – frisch, fruchtig und die perfekte
+                Erfrischung an warmen Tagen.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer container">
+      <div class="footer__helper">
+        <p class="footer__subtitle">Hausgemachtes Eis</p>
+        <h2 class="footer__title">mit Leidenschaft zubereitet</h2>
+      </div>
+      <p class="footer__copyright">
+        &#169; 2026 - IceCream. All Rights Reserved.
+      </p>
+    </footer>
+
+    <!-- MODAL -->
+    <!-- header -->
+    <div data-modal class="header-backdrop is-hidden">
+      <div class="header-modal container">
+        <div class="header-modal__header">
+          <a aria-label="page logo" class="header__logo" href="./index.html">
+            <svg class="header__logo-svg">
+              <use href="./src/images/sprite.svg#logo"></use>
+            </svg>
+          </a>
+          <button
+            aria-label="close"
+            data-modal-close
+            class="header-modal__close"
+          >
+            <svg class="header-burger__svg">
+              <use href="./src/images/sprite.svg#vector-close"></use>
+            </svg>
+          </button>
+        </div>
+        <nav class="modal-header__nav">
+          <ul class="modal-header__list">
+            <li class="modal-header__item">
+              <a class="modal-header__link" href="./index.html #home"
+                >Startseite</a
+              >
+            </li>
+            <li class="modal-header__item">
+              <a class="modal-header__link" href="./menu.html">Speisekarte</a>
+            </li>
+            <li class="modal-header__item">
+              <a class="modal-header__link" href="./index.html #contact"
+                >Standort</a
+              >
+            </li>
+            <li class="modal-header__item">
+              <a class="modal-header__link" href="./index.html #how"
+                >Über uns</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="./src/header.js"></script>
+  </body>
+</html>
