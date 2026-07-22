@@ -326,6 +326,10 @@ label {
   margin-top: 50px;
 }
 
+.hero-header.menu {
+  margin-top: 280px;
+}
+
 .hero-header__title {
   display: flex;
   flex-direction: column;
@@ -430,7 +434,6 @@ label {
   color: var(--text-dark);
 
   @media screen and (min-width: 768px) {
-    margin-top: 30px;
     font-size: 20px;
   }
 }
@@ -454,10 +457,8 @@ label {
   object-fit: cover;
   @media screen and (max-width: 767px) {
     width: 100%;
-    
   }
 }
-
 
 .menu__pic.menub {
   @media screen and (max-width: 479px) {
@@ -744,6 +745,9 @@ label {
 
 .first__menu--first {
   margin-top: 60px;
+  height: 400px;
+  display: flex;
+  align-items: center;
 }
 
 .first__menu {
@@ -790,8 +794,6 @@ label {
     margin-bottom: 20px;
   }
 }
-
-
 
 .menu__wrapper {
   text-align: center;
